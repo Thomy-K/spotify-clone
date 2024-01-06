@@ -1,0 +1,6 @@
+1. siempre que hay un onClick se usa "use client"?
+2. a los divs se les puede colocar onClick?
+3. usas el middleware de supabase?
+4. 'export const revalidate = 0'
+5. components > SearchInput: porqué funciona el debounce?
+6. pq components en @/ y otros en ./?
