@@ -4,3 +4,4 @@
 4. 'export const revalidate = 0'
 5. components > SearchInput: porqué funciona el debounce?
 6. pq components en @/ y otros en ./?
+7. components > LikeButton: pq está supabaseClient en el dependency array del useEffect?
