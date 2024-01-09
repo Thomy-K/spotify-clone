@@ -1,6 +1,5 @@
 "use client";
 
-// @ts-ignore
 import useSound from "use-sound";
 import { useEffect, useState } from "react";
 import { BsPauseFill, BsPlayFill } from "react-icons/bs";
@@ -61,7 +60,7 @@ const PlayerContent: React.FC<PlayerContentProps> = ({
     player.setId(previousSong);
   }
 
-  const [play, { pause, sound }] = useSound(
+  const [play, { pause, sound }] = useSound<any>(
     songUrl,
     { 
       volume: volume,
